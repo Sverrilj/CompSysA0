@@ -1,2 +1,0 @@
-# Create a binary file with arbitrary invalid byte sequence (e.g., 0xC0 0x41)
-printf '\xC0\x41\x89\xAB\xFF\x80' > binaryfile.bin
